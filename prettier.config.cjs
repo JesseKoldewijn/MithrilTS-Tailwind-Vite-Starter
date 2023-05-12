@@ -5,7 +5,7 @@ const config = {
   singleQuote: false,
   jsxSingleQuote: false,
   semi: true,
-  trailingComma: "all",
-  tabWidth: 2,
+  trailingComma: "none",
+  tabWidth: 2
 };
 module.exports = config;

@@ -13,7 +13,7 @@ const Home: MComponent = () => {
           <h3 class="text-xl font-light">And as always...Hello World!</h3>
         </div>
       );
-    },
+    }
   };
 };
 export default Home;

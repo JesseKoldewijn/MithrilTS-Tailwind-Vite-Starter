@@ -16,7 +16,7 @@ const MainFooter: MComponent = () => {
           </div>
         </div>
       );
-    },
+    }
   };
 };
 export default MainFooter;

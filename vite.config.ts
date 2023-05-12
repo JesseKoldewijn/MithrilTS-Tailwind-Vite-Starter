@@ -8,6 +8,12 @@ export default defineConfig({
     jsx: "transform",
     jsxFactory: "m",
     jsxFragment: "'['",
-    jsxImportSource: "mithril",
+    jsxImportSource: "mithril"
   },
+  build: {
+    target: "es5",
+    minify: true,
+    cssMinify: true,
+    cssCodeSplit: true
+  }
 });

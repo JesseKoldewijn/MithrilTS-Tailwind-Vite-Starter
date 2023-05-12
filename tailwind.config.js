@@ -1,4 +1,4 @@
-import daisyui from "daisyui"
+import daisyui from "daisyui";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ThisIsMithil: "#5DD06B",
-      },
-    },
+        ThisIsMithil: "#5DD06B"
+      }
+    }
   },
-  plugins: [daisyui],
+  plugins: [daisyui]
 };

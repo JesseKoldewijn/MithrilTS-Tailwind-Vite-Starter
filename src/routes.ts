@@ -7,6 +7,6 @@ import About from "./pages/about";
 
 const routes = {
   "/": MainLayout(Home),
-  "/about": MainLayout(About),
+  "/about": MainLayout(About)
 };
 export default routes;

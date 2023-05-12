@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "keyofStringsOnly": true,
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "ES2015",
+    "module": "ES2015",
     "lib": ["ESNext", "DOM"],
     "allowJs": false,
     "checkJs": false,

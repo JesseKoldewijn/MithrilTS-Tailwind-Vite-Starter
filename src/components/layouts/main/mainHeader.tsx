@@ -16,7 +16,7 @@ const MainHeader: MComponent = () => {
           </div>
         </div>
       );
-    },
+    }
   };
 };
 export default MainHeader;

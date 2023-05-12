@@ -13,7 +13,7 @@ const About: MComponent = () => {
           <h3 class="text-xl font-light">Who am I?</h3>
         </div>
       );
-    },
+    }
   };
 };
 export default About;

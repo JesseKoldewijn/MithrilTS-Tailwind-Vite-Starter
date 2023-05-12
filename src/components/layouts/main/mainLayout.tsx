@@ -13,7 +13,7 @@ const MainLayout = (Body: MComponent) => {
           <MainFooter />
         </>
       );
-    },
+    }
   };
 };
 export default MainLayout;
