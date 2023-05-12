@@ -7,9 +7,9 @@ const MainLayout = (Body: MComponent) => {
     view() {
       return (
         <>
-          {m(MainHeader)}
-          {m(Body)}
-          {m(MainFooter)}
+          <MainHeader />
+          <Body />
+          <MainFooter />
         </>
       );
     },

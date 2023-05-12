@@ -1,0 +1,38 @@
+{
+  "Mithril TSX Component": {
+    "scope": "typescriptreact",
+    "prefix": ["mithril", "mtf"],
+    "body": [
+      "import m from 'mithril'",
+      " ",
+      "MComponent: MComponent = () => {",
+      "     tag: {};",
+      "     attrs: {};",
+      "     state: {};",
+      "     controller: () => {};",
+      "     view: () => {",
+      "         return <><>;",
+      "     };",
+      "};"
+    ],
+    "description": "Insert base Jsx typescript element Element function"
+  },
+  "Mithril JSX Component": {
+    "scope": "javascriptreact",
+    "prefix": ["mithril js", "mjf"],
+    "body": [
+      "import m from 'mithril'",
+      " ",
+      "MComponent: MComponent = () => {",
+      "     tag: {};",
+      "     attrs: {};",
+      "     state: {};",
+      "     controller: () => {};",
+      "     view: () => {",
+      "         return <><>;",
+      "     };",
+      "};"
+    ],
+    "description": "Insert base Jsx javascript element Element function"
+  }
+}
