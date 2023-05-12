@@ -11,9 +11,10 @@ export default defineConfig({
     jsxImportSource: "mithril"
   },
   build: {
-    target: "es5",
     minify: true,
     cssMinify: true,
-    cssCodeSplit: true
+    cssCodeSplit: true,
+    modulePreload: true,
+    manifest: true
   }
 });
