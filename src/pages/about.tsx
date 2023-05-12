@@ -1,5 +1,4 @@
-import { MComponent } from "@/utils/mithrilHelper";
-import m from "mithril";
+import { MComponent } from "@/utils/mithril/mithrilHelper";
 
 const About: MComponent = () => {
   return {

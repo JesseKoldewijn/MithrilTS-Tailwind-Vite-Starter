@@ -17,6 +17,7 @@
     "noImplicitReturns": true,
     "jsx": "preserve",
     "jsxFactory": "m",
+    "types": ["mithril"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]

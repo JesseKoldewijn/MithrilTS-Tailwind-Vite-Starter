@@ -1,6 +1,6 @@
 import "@/styles/tailwind.css";
 
-import m from "@/utils/mithrilHelper";
+import route from "mithril/route";
 
 import routes from "./routes";
 
@@ -8,8 +8,8 @@ const main = () => {
   const mountNode = document.querySelector("#_MITHRIL_ROOT_");
 
   if (mountNode) {
-    m.route.prefix = "";
-    m.route(mountNode, "/", routes);
+    route.prefix = "";
+    route(mountNode, "/", routes);
   }
 };
 main();

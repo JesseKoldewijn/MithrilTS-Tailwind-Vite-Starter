@@ -1,4 +1,4 @@
-import m, { MComponent } from "@/utils/mithrilHelper";
+import { MComponent } from "@/utils/mithril/mithrilHelper";
 
 const MainHeader: MComponent = () => {
   return {
