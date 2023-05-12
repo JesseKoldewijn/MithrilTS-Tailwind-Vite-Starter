@@ -1,4 +1,5 @@
 import { MComponent } from "@/utils/mithril/mithrilHelper";
+
 import MainHeader from "./mainHeader";
 import MainFooter from "./mainFooter";
 

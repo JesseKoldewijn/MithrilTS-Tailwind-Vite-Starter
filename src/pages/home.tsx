@@ -1,5 +1,10 @@
-const Home = () => {
+import { MComponent } from "@/utils/mithril/mithrilHelper";
+
+const Home: MComponent = () => {
   return {
+    tag: {},
+    attrs: {},
+    state: {},
     controller: () => {},
     view: () => {
       return (
